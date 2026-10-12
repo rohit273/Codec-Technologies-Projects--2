@@ -1,0 +1,2 @@
+file,from_name,from_address,reply_to,subject,risk_score,risk,recommended_action
+sample_phishing.eml,Microsoft Account Security,security@notice-example.invalid,support@unrelated-example.invalid,Urgent: Verify your account within 24 hours,8,high,analyst_review

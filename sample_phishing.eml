@@ -1,0 +1,13 @@
+From: "Microsoft Account Security" <security@notice-example.invalid>
+Reply-To: support@unrelated-example.invalid
+To: analyst@example.invalid
+Subject: Urgent: Verify your account within 24 hours
+Date: Mon, 12 Oct 2026 10:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Authentication-Results: mx.example.invalid; spf=fail; dkim=fail; dmarc=fail
+
+Synthetic training email, not a real brand or event.
+Action required: verify your account immediately.
+Training-only URL: https://192.0.2.45/verify-account
+Never enter credentials on an untrusted site.

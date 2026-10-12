@@ -1,0 +1,32 @@
+{
+  "file": "sample_phishing.eml",
+  "from_name": "Microsoft Account Security",
+  "from_address": "security@notice-example.invalid",
+  "reply_to": "support@unrelated-example.invalid",
+  "subject": "Urgent: Verify your account within 24 hours",
+  "date": "Mon, 12 Oct 2026 10:00:00 +0000",
+  "authentication_results": "mx.example.invalid; spf=fail; dkim=fail; dmarc=fail",
+  "urls": [
+    "https://192.0.2.45/verify-account"
+  ],
+  "url_findings": [
+    {
+      "url": "https://192.0.2.45/verify-account",
+      "flags": [
+        "ip_literal_url_host",
+        "suspicious_url_wording"
+      ]
+    }
+  ],
+  "findings": [
+    "authentication_failure_in_header",
+    "brand_like_display_name_domain_mismatch",
+    "reply_to_domain_mismatch",
+    "urgency_or_credential_request_language"
+  ],
+  "risk_score": 8,
+  "risk": "high",
+  "recommended_action": "analyst_review",
+  "analyzed_at_utc": "2026-10-12T16:52:03.926929+00:00",
+  "note": "Heuristic triage only; no URL was visited and authentication was not independently verified."
+}

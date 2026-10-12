@@ -1,0 +1,11 @@
+From: "IT Training" <training@example.invalid>
+To: analyst@example.invalid
+Subject: Scheduled security awareness session
+Date: Mon, 12 Oct 2026 11:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Authentication-Results: mx.example.invalid; spf=pass; dkim=pass; dmarc=pass
+
+Synthetic training message.
+The security awareness session is scheduled for next week.
+Contact the IT help desk through your usual internal directory if you have questions.
